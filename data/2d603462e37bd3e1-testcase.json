@@ -1,0 +1,80 @@
+{
+  "uid" : "2d603462e37bd3e1",
+  "name" : "emptyCredentialsTest",
+  "title" : "Авторизация с неуказанными именем и паролем",
+  "time" : {
+    "start" : 1603637289697,
+    "stop" : 1603637301046,
+    "duration" : 11349
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 2
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "e49ace43a9f67a52",
+    "name" : "AuthorizationTests",
+    "title" : "Authorization tests"
+  },
+  "steps" : [ {
+    "name" : "submitEntry",
+    "title" : "Нажата кнопка Вход",
+    "time" : {
+      "start" : 1603637300003,
+      "stop" : 1603637300096,
+      "duration" : 93
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkSpecifyCredentialsError",
+    "title" : "Проверка отображения ошибки Укажите логин и пароль",
+    "time" : {
+      "start" : 1603637300096,
+      "stop" : 1603637300285,
+      "duration" : 189
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-NQJ015I"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "AuthorizationTests"
+  }, {
+    "name" : "thread",
+    "value" : "9880@DESKTOP-NQJ015I.main(1)"
+  } ],
+  "parameters" : [ ]
+}

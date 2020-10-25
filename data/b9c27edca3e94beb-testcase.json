@@ -1,0 +1,110 @@
+{
+  "uid" : "b9c27edca3e94beb",
+  "name" : "wrongUserTest",
+  "title" : "Авторизация с неправильным именем",
+  "time" : {
+    "start" : 1603637325579,
+    "stop" : 1603637335300,
+    "duration" : 9721
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "NORMAL",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "e49ace43a9f67a52",
+    "name" : "AuthorizationTests",
+    "title" : "Authorization tests"
+  },
+  "steps" : [ {
+    "name" : "fillLoginField[f]",
+    "title" : "Указан логин f",
+    "time" : {
+      "start" : 1603637333949,
+      "stop" : 1603637334150,
+      "duration" : 201
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "fillPasswordField[f]",
+    "title" : "Указан пароль f",
+    "time" : {
+      "start" : 1603637334150,
+      "stop" : 1603637334353,
+      "duration" : 203
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "submitEntry",
+    "title" : "Нажата кнопка Вход",
+    "time" : {
+      "start" : 1603637334353,
+      "stop" : 1603637334395,
+      "duration" : 42
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkWrongUserError",
+    "title" : "Проверка отображения ошибки Неизвестное имя пользователя",
+    "time" : {
+      "start" : 1603637334395,
+      "stop" : 1603637334647,
+      "duration" : 252
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-NQJ015I"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "severity",
+    "value" : "normal"
+  }, {
+    "name" : "suite-name",
+    "value" : "AuthorizationTests"
+  }, {
+    "name" : "thread",
+    "value" : "9880@DESKTOP-NQJ015I.main(1)"
+  } ],
+  "parameters" : [ ]
+}

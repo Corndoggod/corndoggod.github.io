@@ -1,0 +1,47 @@
+{
+  "testCases" : [ {
+    "uid" : "2d603462e37bd3e1",
+    "name" : "emptyCredentialsTest",
+    "title" : "Авторизация с неуказанными именем и паролем",
+    "time" : {
+      "start" : 1603637289697,
+      "stop" : 1603637301046,
+      "duration" : 11349
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "5a0095cb2e3a2469",
+    "name" : "wrongPasswordTest",
+    "title" : "Авторизация с неправильным паролем",
+    "time" : {
+      "start" : 1603637301050,
+      "stop" : 1603637311467,
+      "duration" : 10417
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  }, {
+    "uid" : "ef92aff31b412795",
+    "name" : "successAuthorizationTest",
+    "title" : "Успешная авторизация",
+    "time" : {
+      "start" : 1603637311469,
+      "stop" : 1603637325578,
+      "duration" : 14109
+    },
+    "severity" : "BLOCKER",
+    "status" : "PASSED"
+  }, {
+    "uid" : "b9c27edca3e94beb",
+    "name" : "wrongUserTest",
+    "title" : "Авторизация с неправильным именем",
+    "time" : {
+      "start" : 1603637325579,
+      "stop" : 1603637335300,
+      "duration" : 9721
+    },
+    "severity" : "NORMAL",
+    "status" : "PASSED"
+  } ]
+}

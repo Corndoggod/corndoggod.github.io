@@ -1,0 +1,110 @@
+{
+  "uid" : "ef92aff31b412795",
+  "name" : "successAuthorizationTest",
+  "title" : "Успешная авторизация",
+  "time" : {
+    "start" : 1603637311469,
+    "stop" : 1603637325578,
+    "duration" : 14109
+  },
+  "summary" : {
+    "attachments" : 0,
+    "steps" : 4
+  },
+  "failure" : null,
+  "description" : null,
+  "severity" : "BLOCKER",
+  "status" : "PASSED",
+  "suite" : {
+    "uid" : "e49ace43a9f67a52",
+    "name" : "AuthorizationTests",
+    "title" : "Authorization tests"
+  },
+  "steps" : [ {
+    "name" : "fillLoginField[TestUser]",
+    "title" : "Указан логин TestUser",
+    "time" : {
+      "start" : 1603637319837,
+      "stop" : 1603637320967,
+      "duration" : 1130
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "fillPasswordField[TestingPassword.123.]",
+    "title" : "Указан пароль TestingPassword.123.",
+    "time" : {
+      "start" : 1603637320967,
+      "stop" : 1603637323658,
+      "duration" : 2691
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "submitEntry",
+    "title" : "Нажата кнопка Вход",
+    "time" : {
+      "start" : 1603637323658,
+      "stop" : 1603637323698,
+      "duration" : 40
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  }, {
+    "name" : "checkWelcomeMessage[Test Testov]",
+    "title" : "Проверка, что указано правильное имя пользователя Test Testov в строке приветствия",
+    "time" : {
+      "start" : 1603637323699,
+      "stop" : 1603637324892,
+      "duration" : 1193
+    },
+    "summary" : {
+      "attachments" : 0,
+      "steps" : 0
+    },
+    "status" : "PASSED",
+    "attachments" : [ ],
+    "steps" : [ ]
+  } ],
+  "attachments" : [ ],
+  "issues" : [ ],
+  "testIds" : [ ],
+  "labels" : [ {
+    "name" : "host",
+    "value" : "DESKTOP-NQJ015I"
+  }, {
+    "name" : "framework",
+    "value" : "JUnit"
+  }, {
+    "name" : "language",
+    "value" : "JAVA"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "suite-title",
+    "value" : null
+  }, {
+    "name" : "suite-name",
+    "value" : "AuthorizationTests"
+  }, {
+    "name" : "thread",
+    "value" : "9880@DESKTOP-NQJ015I.main(1)"
+  } ],
+  "parameters" : [ ]
+}
